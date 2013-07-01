@@ -1,0 +1,296 @@
+//Colors
+@darkestGreen:#254036;
+@darkGreen:#436d66;
+@midGreen:#4a7f6b;
+@lightGreen:#6fbfa1;
+@lightestGreen:#94ffd7;
+@mainBlue:#2A4641;
+@font-size:16px;
+
+body{
+	font-family:'Lato', sans-serif;
+	background-color:#2A4641;
+	margin:0em;
+	font-size:16px;
+}
+
+.header-block{
+	background:white;
+	width:100%;
+}
+
+.header{
+	background:WHITE;
+	display:block;
+	margin: 0em;
+	padding: 0em;
+	width:800px;
+	margin:auto;
+}
+
+.titlebar{
+	color:@mainBlue;
+	text-align:center;
+	display:block;
+	padding-top:10em/@font-size;
+
+	#first-name{
+		display:inline;
+		font-size:75em/@font-size;
+		font-weight:900;
+		margin-right:-15px;
+		line-height:90%;
+	}
+
+	#last-name{
+		display:inline;
+		font-size:40em/@font-size;
+		font-weight:100;
+		letter-spacing: -0.1px;
+	}
+
+}
+
+#adit{
+	width:300px;
+	height:250px;
+	background-color:@midGreen;
+	display:block;
+	margin-right:-3px;
+}
+
+#design{
+	width:300px;
+	height:250px;
+	background-color:@darkestGreen;
+	display:block;
+	margin-right:-3px;
+}
+
+#resume{
+	width:100px;
+	height:100px;
+	background-color:@lightGreen;
+	display:inline-block;
+	margin-right:-3px;
+
+}
+
+#email{
+	width:100px;
+	height:100px;
+	background-color:@midGreen;
+	display:inline-block;
+	margin-right:-3px;
+
+}
+
+#linkedin{
+	width:100px;
+	height:100px;
+	background-color:@darkGreen;
+	display:inline-block;
+	margin-right:-3px;
+
+}
+
+#bayarea{
+	width:250px;
+	height:175px;
+	background-color:@lightGreen;
+	display:block;
+	margin-right:-3px;
+
+}
+
+#engineer{
+	width:300px;
+	height:300px;
+	background-color:@lightestGreen;
+	display:block;
+	margin-right:-3px;
+
+}
+
+#basketball{
+	width:300px;
+	height:125px;
+	background-color:@lightGreen;
+	display:block;
+	margin-right:-3px;
+
+}
+
+#school{
+	width:250px;
+	height:175px;
+	background-color:@darkGreen;
+	display:block;
+	margin-right:-3px;
+	margin-left:-50px;
+
+}
+
+#art{
+	width:200px;
+	height:250px;
+	background-color:@darkestGreen;
+	display:block;
+	margin-right:-3px;
+
+}
+
+#scroll{
+	width:200px;
+	height:175px;
+	background-color:@midGreen;
+	display:block;
+	margin-right:-3px;
+
+}
+
+
+
+.content-block (@thecolor:WHITE){
+	background:@thecolor;
+	width:100%;
+
+	.inner-content-block{
+		width:800px;
+		margin:auto;
+		height:400px;
+		padding-top:10px;
+		padding:0px 10px;
+		background-color:@thecolor;
+
+		.title-white{
+			font-size:50px;
+			font-style:italic;
+			font-weight:100;
+			margin-top:10px;
+			color:WHITE;
+		}
+
+		.article-white{
+			font-size:18px;
+			font-weight:300;
+			color:WHITE;
+		}
+
+		.title-green{
+			font-size:50px;
+			font-style:italic;
+			font-weight:100;
+			margin-left:10px;
+			display:block;
+			color:@mainBlue;
+		}
+
+		.article-green{
+			font-size:18px;
+			font-weight:300;
+			margin-left:10px;
+			display:block;
+			color:@mainBlue;
+		}
+	}
+
+}
+
+.content-block-white{
+	.content-block;
+}
+
+.content-block-green{
+	.content-block(@mainBlue);
+}
+
+
+.content{
+	width:800px;
+	margin:auto;
+	padding-bottom:20px;
+}
+
+.column{
+	display:inline-block;
+}
+
+.buttons{
+	display:block;
+}
+
+#aboutImageBlock{
+	margin-top:15px;
+	display:inline-block;
+	vertical-align:top;
+	width:500px;
+}
+
+#aboutTextBlock{
+	margin-top:15px;
+	display:inline-block;
+	margin-left:21px;
+	width:275px;
+}
+
+
+
+#aboutDecoration{
+	border:10px solid @mainBlue;
+}
+
+.navbar{
+	float:left;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	font-size:14px;
+	font-weight: 100;
+	margin-top:10px;
+	margin-bottom:10px;
+	ul{
+		clear:left;
+		float:left;
+		list-style:none;
+		margin: 0px;
+		padding:0px;
+		position:relative;
+		left:50%;
+		text-align:center;
+
+		li{
+			display:block;
+			float:left;
+			list-style:none;
+			margin:0;
+			padding:0;
+			position:relative;
+			right:50%;
+			border-right:1px solid WHITE;
+
+			&:last-child{
+				border-right:0px;
+			}
+
+			a{
+				display: block;
+				margin:0 0 0 1px;
+				padding:3px 10px;
+				color:WHITE;
+				text-decoration:none;
+
+				&:hover{
+					color:WHITE;
+				}
+
+				&.active{
+					font-weight:300;
+					color:WHITE;
+				}
+			}		
+		}
+	}	
+}
+
+

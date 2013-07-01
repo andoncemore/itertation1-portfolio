@@ -1,0 +1,266 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #2A4641;
+  margin: 0em;
+  font-size: 16px;
+}
+.header-block {
+  background: white;
+  width: 100%;
+}
+.header {
+  background: WHITE;
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  width: 800px;
+  margin: auto;
+}
+.titlebar {
+  color: #2a4641;
+  text-align: center;
+  display: block;
+  padding-top: 0.625em;
+}
+.titlebar #first-name {
+  display: inline;
+  font-size: 4.6875em;
+  font-weight: 900;
+  margin-right: -15px;
+  line-height: 90%;
+}
+.titlebar #last-name {
+  display: inline;
+  font-size: 2.5em;
+  font-weight: 100;
+  letter-spacing: -0.1px;
+}
+#adit {
+  width: 300px;
+  height: 250px;
+  background-color: #4a7f6b;
+  display: block;
+  margin-right: -3px;
+}
+#design {
+  width: 300px;
+  height: 250px;
+  background-color: #254036;
+  display: block;
+  margin-right: -3px;
+}
+#resume {
+  width: 100px;
+  height: 100px;
+  background-color: #6fbfa1;
+  display: inline-block;
+  margin-right: -3px;
+}
+#email {
+  width: 100px;
+  height: 100px;
+  background-color: #4a7f6b;
+  display: inline-block;
+  margin-right: -3px;
+}
+#linkedin {
+  width: 100px;
+  height: 100px;
+  background-color: #436d66;
+  display: inline-block;
+  margin-right: -3px;
+}
+#bayarea {
+  width: 250px;
+  height: 175px;
+  background-color: #6fbfa1;
+  display: block;
+  margin-right: -3px;
+}
+#engineer {
+  width: 300px;
+  height: 300px;
+  background-color: #94ffd7;
+  display: block;
+  margin-right: -3px;
+}
+#basketball {
+  width: 300px;
+  height: 125px;
+  background-color: #6fbfa1;
+  display: block;
+  margin-right: -3px;
+}
+#school {
+  width: 250px;
+  height: 175px;
+  background-color: #436d66;
+  display: block;
+  margin-right: -3px;
+  margin-left: -50px;
+}
+#art {
+  width: 200px;
+  height: 250px;
+  background-color: #254036;
+  display: block;
+  margin-right: -3px;
+}
+#scroll {
+  width: 200px;
+  height: 175px;
+  background-color: #4a7f6b;
+  display: block;
+  margin-right: -3px;
+}
+.content-block-white {
+  background: WHITE;
+  width: 100%;
+}
+.content-block-white .inner-content-block {
+  width: 800px;
+  margin: auto;
+  height: 400px;
+  padding-top: 10px;
+  padding: 0px 10px;
+  background-color: WHITE;
+}
+.content-block-white .inner-content-block .title-white {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 10px;
+  color: WHITE;
+}
+.content-block-white .inner-content-block .article-white {
+  font-size: 18px;
+  font-weight: 300;
+  color: WHITE;
+}
+.content-block-white .inner-content-block .title-green {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 10px;
+  display: block;
+  color: #2a4641;
+}
+.content-block-white .inner-content-block .article-green {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 10px;
+  display: block;
+  color: #2a4641;
+}
+.content-block-green {
+  background: #2a4641;
+  width: 100%;
+}
+.content-block-green .inner-content-block {
+  width: 800px;
+  margin: auto;
+  height: 400px;
+  padding-top: 10px;
+  padding: 0px 10px;
+  background-color: #2a4641;
+}
+.content-block-green .inner-content-block .title-white {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 10px;
+  color: WHITE;
+}
+.content-block-green .inner-content-block .article-white {
+  font-size: 18px;
+  font-weight: 300;
+  color: WHITE;
+}
+.content-block-green .inner-content-block .title-green {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 10px;
+  display: block;
+  color: #2a4641;
+}
+.content-block-green .inner-content-block .article-green {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 10px;
+  display: block;
+  color: #2a4641;
+}
+.content {
+  width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.column {
+  display: inline-block;
+}
+.buttons {
+  display: block;
+}
+#aboutImageBlock {
+  margin-top: 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+}
+#aboutTextBlock {
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 21px;
+  width: 275px;
+}
+#aboutDecoration {
+  border: 10px solid #2a4641;
+}
+.navbar {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+.navbar ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  border-right: 1px solid WHITE;
+}
+.navbar ul li:last-child {
+  border-right: 0px;
+}
+.navbar ul li a {
+  display: block;
+  margin: 0 0 0 1px;
+  padding: 3px 10px;
+  color: WHITE;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: WHITE;
+}
+.navbar ul li a.active {
+  font-weight: 300;
+  color: WHITE;
+}
