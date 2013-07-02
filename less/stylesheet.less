@@ -4,12 +4,14 @@
 @midGreen:#4a7f6b;
 @lightGreen:#6fbfa1;
 @lightestGreen:#94ffd7;
-@mainBlue:#2A4641;
+@mainGreen:#2A4641;
+@mainBlue:#2f3130;
 @font-size:16px;
 
 body{
 	font-family:'Lato', sans-serif;
-	background-color:#2A4641;
+	background-color:@mainBlue;
+	//background-image: url('classy_fabric.png');
 	margin:0em;
 	font-size:16px;
 }
@@ -183,7 +185,7 @@ body{
 			font-weight:100;
 			margin-left:10px;
 			display:block;
-			color:@mainBlue;
+			color:@mainGreen;
 		}
 
 		.article-green{
@@ -191,7 +193,7 @@ body{
 			font-weight:300;
 			margin-left:10px;
 			display:block;
-			color:@mainBlue;
+			color:@mainGreen;
 		}
 	}
 
@@ -214,10 +216,14 @@ body{
 
 .column{
 	display:inline-block;
-}
-
-.buttons{
-	display:block;
+	img{
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		&:hover{
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+	}
 }
 
 #aboutImageBlock{
@@ -234,10 +240,95 @@ body{
 	width:275px;
 }
 
-
-
 #aboutDecoration{
-	border:10px solid @mainBlue;
+	border:10px solid @mainGreen;
+}
+
+#title-wrapper{
+	background:@mainBlue;
+	width:100%;
+	#page-title{
+		background:@mainBlue;
+
+		width:800px;
+		margin:auto;
+		text-align:center;
+		height:200px;
+	}
+
+}
+
+
+.art-block (@thecolor:WHITE){
+	background:@thecolor;
+	width:100%;
+
+	.inner-art{
+		width:800px;
+		margin:auto;
+		padding-top:10px;
+		padding:0px 10px;
+		background-color:@thecolor;
+		padding-top:10px;
+
+		.art{
+			display:block;
+			margin-right:auto;
+			margin-left:auto;
+			border:10px solid @mainBlue;
+		}
+
+
+		.title-green{
+			font-size:40px;
+			font-style:italic;
+			font-weight:100;
+			display:block;
+			color:@mainGreen;
+			padding-bottom:10px;
+			text-align:center;
+			margin-top:10px;
+		}
+
+		.article-green{
+			font-size:18px;
+			font-weight:300;
+			margin-left:10px;
+			display:block;
+			color:@mainGreen;
+		}
+	}
+
+}
+
+#artwork-title{
+	font-size:75px;
+	font-weight:300;
+	letter-spacing:20px;
+	display:block;
+	line-height: 100%;
+
+}
+
+#artwork-description{
+	font-size:20px;
+	font-weight:100;
+	color:WHITE;
+	display:block;
+	font-style:italic;
+	line-height: 90%
+}
+
+#line-style{
+
+}
+
+.artwork-gray{
+	.art-block(@mainBlue);
+}
+
+.artwork-white{
+	.art-block;
 }
 
 .navbar{
